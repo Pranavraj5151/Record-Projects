@@ -2,8 +2,6 @@
 #include<conio.h>
 void main()
 {
-
-
 int n1,n2,n3;
 system("cls");
 printf("Enter the limit of first:");
@@ -53,14 +51,11 @@ for(i=0;i<n3;i++)
     }
 }
 printf("[");
-
 for(i=0;i<n3;i++)
 {
 printf(" %d",c[i]);
 }
 printf("]");
-
-
 getch();
 }
 
