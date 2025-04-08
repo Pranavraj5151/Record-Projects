@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int n1,n2,n3;
 system("cls");
@@ -56,7 +55,7 @@ for(i=0;i<n3;i++)
 printf(" %d",c[i]);
 }
 printf("]");
-getch();
+return 0;
 }
 
 
