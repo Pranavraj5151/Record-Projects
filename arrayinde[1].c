@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
-void main(){
+int main(){
     #define MAX 100
     int i, pos, val, choice, size,arr[MAX]; 
     for(;;){
@@ -70,8 +69,7 @@ void main(){
         else if (choice != 0) {
         printf("Invalid choice. Please enter 0, 1, 2, or 3.\n");
         }
-        
     } while (choice != 0);
      printf("Exiting... Goodbye!\n");
-    getch();
+     return 0;
 }
